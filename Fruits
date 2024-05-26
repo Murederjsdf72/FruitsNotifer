@@ -186,7 +186,7 @@ local function onSwitchClick()
 			showText("Notificador ativado com sucesso", 2)
 		else
 			switch.TextLabel.Text = "Нотификатор (ВКЛ)"
-			showText("Notifier enabled successfully", 2)
+			showText("Нотификатор успешно включён", 2)
 		end
 
 		-- Connect the event and start the listening
@@ -209,7 +209,7 @@ end
 if (lang == "pt-br") then
 	showText("Script ativado com sucesso", 3)
 else
-	showText("Script enabled successfully", 3)
+	showText("Загрузка...", 3)
 end
 
 -- Enables the notifier on startup by simulating a switch click
